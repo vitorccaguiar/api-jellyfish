@@ -1,0 +1,28 @@
+[
+    {
+        "id": "gustavobl",
+        "name": "Gus Lamounier",
+        "role": "UI Designer",
+        "actual_project": "SUMO",
+        "location": "Belo Horizonte, MG / Brazil",
+        "email": "gustavobl@ciandt.com",
+        "contact": "+55 31999712908",
+        "coach": "Jefferson Welligton da Cunha",
+        "pdm": "Jefferson Welligton da Cunha",
+        "bp": "Natalia Veleziana Garcia",
+        "area": "BU Polaris"
+    },
+    {
+        "id": "eduardobp",
+        "name": "Eduardo Bellis",
+        "role": "Software Architect",
+        "actual_project": "JellyFish",
+        "location": "Belo Horizonte, MG / Brazil",
+        "email": "eduardobp@ciandt.com",
+        "contact": "+55 31996477937",
+        "coach": "Davi Couto Melazo",
+        "pdm": "Kanji Hara Neto",
+        "bp": "Natalia Veleziana Garcia",
+        "area": "BU Polaris"
+    }
+]
