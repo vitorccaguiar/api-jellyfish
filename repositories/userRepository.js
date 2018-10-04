@@ -15,6 +15,6 @@ module.exports = function() {
                 return jsonArray[i];
             }
         }
-        return 'User not found';
+        throw "User Not Found";
     }
 };

@@ -1,20 +1,14 @@
 var express = require('express');
-var service = require('../services/userService');
+var controller = require('../controllers/userController');
 var router = express.Router();
-var userService = new service();
+var userController = new controller();
 
 router.get('/', function(req, res, next) {
-  res.json(userService.getUsers());
+  res.json(userController.getUsers(req, res));
 });
 
 router.get('/:id', function(req, res, next) {
-  var result = userService.getUser(req.params.id);
-  if(result === 'User not found') {
-    res.status(404).send(result);
-  }
-  else {
-    res.json(result);
-  }
+  res.json(userController.getUser(req, res, req.params.id));
 });
 
 module.exports = router;
